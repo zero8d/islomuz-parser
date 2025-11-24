@@ -3,8 +3,13 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "parse:csv": "node src/parseToCsv.ts",
+    "parse:pg": "node src/parseToPg.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.31.7"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -12,7 +17,12 @@
   "dependencies": {
     "@types/node": "^24.10.0",
     "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
     "ky": "^1.14.0",
-    "playwright": "^1.56.1"
+    "pg": "^8.16.3",
+    "playwright": "^1.56.1",
+    "postgres": "^3.4.7",
+    "zod": "^4.1.13"
   }
 }
