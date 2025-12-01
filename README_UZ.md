@@ -101,7 +101,7 @@ npm run parse:pg
 ## ⚠️ Muhim: Runtime va OS haqida
 
 **Windows foydalanuvchilari uchun:**
-Loyiha **Node.js** runtime'dan foydalanish uchun sozlangan. Bun ajoyib runtime, lekin u Windows tizimlarida Playwright'ni ishga tushirishda ba'zi muammolariga duch kelishi mumkin. Shuning uchun, `npm run` buyruqlari kodni Node.js orqali bajarish uchun o'rnatilgan.
+Loyiha **Node.js** runtime'dan foydalanish uchun sozlangan. Bun ajoyib runtime, lekin u Windows tizimlarida Playwright'ni ishga tushirishda ba'zi muammolarga duch kelishi mumkin. Shuning uchun, `npm run` buyruqlari kodni Node.js orqali bajarish uchun o'rnatilgan.
 
 **Linux/macOS foydalanuvchilari uchun:**
 Agar Windows bo'lmasa, xohishingizga ko'ra Bun runtime'dan ham foydalanishingiz mumkin, lekin yuqoridagi buyruqlar Node.js bilan sinovdan o'tgan va barqaror ishlaydi.
