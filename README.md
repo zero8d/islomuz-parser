@@ -1,5 +1,7 @@
 # Islom.uz Prayer Times Scraper
 
+> **[Oʻzbek tilida oʻqish](README_UZ.md)**
+
 A robust TypeScript automation tool designed to scrape prayer time tables from [islom.uz](https://islom.uz). This project utilizes **Playwright** for browser automation and **Cheerio** for HTML parsing to ensure accurate data extraction.
 
 Extracted data can be exported directly to a **CSV file** or synchronized with a **PostgreSQL** database using **Drizzle ORM**.
