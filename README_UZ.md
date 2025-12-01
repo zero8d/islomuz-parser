@@ -19,7 +19,7 @@ Yig'ilgan ma'lumotlar **CSV file**ga eksport qilinishi yoki **PostgreSQL** ma'lu
 
 Loyihani ishga tushirishdan oldin quyidagi dasturlar o'rnatilgan bo'lishi kerak:
 
-1.  **Node.js (v22.18+)**: skriptlarni run qilish uchun.
+1.  **Node.js (v22.18+)**: run qilish uchun.
 2.  **Bun**: paket menejeri sifatida ishlatiladi.
 3.  **PostgreSQL Database** (ixtiyoriy): agar ma'lumotlarni bazaga yozmoqchi bo'lsangiz talab qilinadi.
 
